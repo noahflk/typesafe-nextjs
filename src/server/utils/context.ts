@@ -2,7 +2,7 @@ import * as trpc from "@trpc/server";
 import { NextApiRequest, NextApiResponse } from "next";
 
 type CloakSession = {
-  auth: {
+  auth?: {
     sessionId: string;
     userId: string;
   };

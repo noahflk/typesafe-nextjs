@@ -1,4 +1,5 @@
 import { trpc } from "@/utils/trpc";
+import { Todo } from "@prisma/client";
 import { useState } from "react";
 
 export const AddTodo: React.FC = () => {
@@ -10,7 +11,7 @@ export const AddTodo: React.FC = () => {
       await client.cancelQuery(["todos.get-all"]);
       const previousTodos = client.getQueryData(["todos.get-all"]);
 
-      client.setQueryData(["todos.get-all"], (old) => [...(old ?? []), { name, done: false, id: 9999 }]);
+      client.setQueryData(["todos.get-all"], (old) => [...(old ?? []), { name, done: false, id: 9999 } as Todo]);
       setValue("");
 
       return { previousTodos };
