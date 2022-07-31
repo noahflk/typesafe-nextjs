@@ -12,16 +12,16 @@
   "dependencies": {
     "@clerk/nextjs": "3.8.0",
     "@prisma/client": "4.1.0",
-    "@trpc/client": "9.26.1",
-    "@trpc/next": "9.26.1",
-    "@trpc/react": "9.26.1",
-    "@trpc/server": "9.26.1",
-    "next": "12.2.2",
+    "@trpc/client": "9.26.2",
+    "@trpc/next": "9.26.2",
+    "@trpc/react": "9.26.2",
+    "@trpc/server": "9.26.2",
+    "next": "12.2.3",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-query": "3.39.2",
     "superjson": "1.9.1",
-    "zod": "3.17.3"
+    "zod": "3.17.10"
   },
   "devDependencies": {
     "@tailwindcss/forms": "0.5.2",
@@ -30,7 +30,7 @@
     "@types/react-dom": "18.0.6",
     "autoprefixer": "10.4.7",
     "eslint": "8.20.0",
-    "eslint-config-next": "12.2.2",
+    "eslint-config-next": "12.2.3",
     "postcss": "8.4.14",
     "prisma": "4.1.0",
     "tailwindcss": "3.1.6",
